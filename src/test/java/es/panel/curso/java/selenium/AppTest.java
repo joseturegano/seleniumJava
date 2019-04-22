@@ -37,14 +37,6 @@ class AppTest {
 		Utilidades.sleepTimeInSegundos(5);
 		assertEquals(false, false);
 	}
-
-	
-	@Test
-	void testConstructorAlumno2() {
-		capa.writeInputWithLocatorAndText(By.name("q"), "Curso Java2");	
-		Utilidades.sleepTimeInSegundos(5);
-		assertEquals(false, false);
-	}
 	
 	@AfterEach
 	public void endEach(){
